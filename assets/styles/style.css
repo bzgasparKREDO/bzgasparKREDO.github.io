@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'roboto', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    margin-top: 0 auto;
+}
+
+/*  navbar */
+
+.navbar {
+    width: 85%;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+.navbar h1 {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    
+}
+
+.navbar h1 a{
+    color: #8b5243; 
+    font-family: 'lato', sans-serif;
+    text-decoration: none;
+}
+
+.navbar ul {
+    width: 50%;
+    padding-top: 10px;
+    float: left;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar ul a {
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+/* banner */
+.banner {
+    background-image: url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.banner-body {
+    width: 45%;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+}
+.banner a {
+    margin-top: 15px;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    background-color: #3f3028;
+    color: white;
+}
+.banner-body p {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+.banner-body h2 span {
+    color: #8b5243;
+}
+.banner-body h2 {
+    color: #e7b584;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+/* ads */
+.ads {
+    width: 85%;
+    margin: 65px auto;
+}
+
+.ads-container {
+    width: 48%;
+    height: 400px;
+    margin-bottom: 3%;
+    position: relative;
+    float: left;
+    background-size: cover;
+}
+
+.ads-text {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.ads-text h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.ads-text a {
+    color: white;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #312a26;
+    font-weight: 700;
+    margin-top:15px;
+}
+
+#ads-item1 {
+    margin-right: 3%;
+    background-image: url('../images/ads-img1.jpg');
+}
+
+#ads-item2 {
+    background-image: url('../images/ads-img2.jpg');
+}
+/* ads2 */
+.ads-item3 {
+    margin-right: 3%;
+    background-image: url('../images/ads-img3.jpg');
+}
+
+.ads-item4 {
+    background-image: url('../images/ads-img4.jpg');
+}
+
+.ads-item5 {
+    margin-right: 3%;
+    background-image: url('../images/ads-img5.jpg');
+}
+
+.ads-item6 {
+    background-image: url('../images/ads-img6.jpg');
+}
+/* merchandise */
+.merch {
+    width: 86%;
+    margin: 70px auto;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-header span {
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #c7a17a;
+}
+
+.section-header h2 {
+    text-transform: uppercase;
+    color: #312a26;
+}
+
+.section-header hr {
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
+
+.merch-gallery {
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.merch-items {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.merch-items{
+    margin-right: 10px;
+}
+
+.merch-items img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* discount */
+.discount {
+    width: 85%;
+    height: 350px;
+    margin: 70px auto;
+    position: relative;
+    background-image: url('../images/discount-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.discount-text {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-weight: lighter;
+}
+
+.discount-text span {
+    font-family: 'lato', sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+.discount-text h2 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.discount-text a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.462);
+        color: #312a26;
+        font-family: 'lato', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+}
+/*Reservation */
+.reservation {
+    width: 86%;
+    margin: 60px auto;
+}
+
+form {
+    overflow: auto;
+}
+
+.form-group {
+    margin: 10px 0 0 10px ;
+    background-color: rgb(228, 228, 228);
+    float: left;
+    width: 45%;
+    border-radius: 5px;
+    padding: 30px;
+    height: 540px;
+}
+
+form label,
+form textarea,
+form input {
+    width: 95%;
+    font-family: 'roboto', sans-serif;
+    padding: 15px;
+    margin:5px;
+    border-radius: 5px;
+    border: none;
+}
+
+form select,
+.btn-submit{
+    width: 99%;
+    font-family: 'roboto', sans-serif;
+    padding: 15px;
+    margin:5px;
+    border-radius: 5px;
+    border: none;
+}
+form label {
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 7px;
+}
+.res-time {
+    text-align: center;
+}
+.res-time *{
+    width: auto;
+}
+
+form p {
+    margin: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+form h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form img {
+    display: block;
+    width: 170px;
+    height: 30px;
+    margin: auto;
+    background-size: cover;
+}
+
+.res-agreement * {
+    width: auto;
+}
+
+.btn-submit {
+    background-color: #e7b584;
+    font-weight: 700;
+    text-transform: uppercase;
+}
