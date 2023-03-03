@@ -1,0 +1,98 @@
+.background-image{
+    background-image: url('../images/mountain.jpg');
+    height: 1000px;
+    width: 1500px;
+}
+.background-image-small1{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1500px;
+}
+.background-image-small2{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: repeat-y;
+    height: 1000px;
+    width: 1500px;
+}
+.background-image-small3{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: repeat-x;
+    height: 1000px;
+    width: 1500px;
+}
+.background-image-small4{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: repeat;
+    height: 1000px;
+    width: 1500px;
+}
+
+.background-size-cover{
+    background-image: url('../images/mountain.jpg');
+    /* background-size: cover; */
+    background-size: 1000px 1000px;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+.background-size-contain{
+    background-image: url('../images/mountain.jpg');
+    /* background-size: contain; */
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+    background-attachment: scroll;
+}
+
+
+.background-position1{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 1500px;
+    border: 1px solid black;
+}
+
+.background-position2{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 1000px;
+    width: 1500px;
+    border: 1px solid black;
+}
+
+.background-position3{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 1000px;
+    width: 1500px;
+    border: 1px solid black;
+}
+
+.background-position4{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 1000px;
+    width: 1500px;
+    border: 1px solid black;
+}
+.background-position5{
+    background-image: url('../images/mountainSmall.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 1000px;
+    width: 1500px;
+    border: 1px solid black;
+}
+
+.background-shorthand{
+    background: red url('../images/mountainSmall.jpg') no-repeat center;
+}

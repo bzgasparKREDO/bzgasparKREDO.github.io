@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="css\basics.css">
+
+    <!-- internal css -->
+    <style>
+        h1{
+            background-color: white;
+            color: aqua;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<!-- inline css -->
+<body style="background-color:black;">
+
+    <h1>CSS Introduction</h1>
+    <h2>External CSS</h2>
+    <p style="color: red;">using universal selector</p>
+    <span>Note: Applied to all elements</span>
+    <p>not Only in heading</p>
+    <div>
+        also in division tag
+    </div>
+    <div class="class-name">
+        adding css using class
+    </div>
+    <div class="container">
+        this is my container
+        <table class="table-red" id="table1">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>john</td>
+                    <td>29</td>
+                    <td>john@email.com</td>
+                </tr>
+                <tr>
+                    <td>jane</td>
+                    <td>29</td>
+                    <td>jane@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="class-name" id="p1">
+        this is using an id to add css
+    </p>
+    <p class="class-name" id="p2">
+        using class and id
+    </p>
+    <h2 class="class-name" id="heading2">
+        same class but different id
+    </h2>
+
+    <h3 class="header-1">
+        Top Level heading
+    </h3>
+    <!-- parent element child element using -->
+    <ul>
+        <li><a href="">Home</li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Blog</a></li>
+    </ul>
+    <!-- parent class child element using -->
+    <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Blog</a></li>
+    </ul>
+    <!-- parent class child class using -->
+    <ul class="nav-links">
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">Menu</a></li>
+        <li class="nav-item"><a href="">Blog</a></li>
+    </ul>
+    <!-- parent class 2child 1class 1element using -->
+    <ul class="nav-links">
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">Menu</a></li>
+        <li class="nav-item"><a href="">Blog</a></li>
+    </ul>
+    
+
+    
+</body>
+</html>

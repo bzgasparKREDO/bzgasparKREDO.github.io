@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    
+    <form id="registration_form" method="POST">
+      <table border="0">
+        <tr>
+          <td colspan="4" align="center"><h1>Travel reservation form</h1></td>
+        </tr>
+        <tr>
+          <td colspan="4" align="center"><h3>* denotes mandatory</h3></td>
+        </tr>
+        <tr>
+          <td>
+            <label>First name: </label>
+          </td>
+          <td><input name="firstName" placeholder="First name" /></td>
+          <td>
+            <label>Last name: </label>
+          </td>
+          <td>
+            <input name="lastName" placeholder="Last name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Email address*:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="email_address"
+              value=""
+              placeholder="Email address"
+              required
+            />
+          </td>
+          <td>
+            <label>Select Tour Package* :</label>
+          </td>
+          <td>
+            <select name="package" required>
+              <option value="1 Person">1 Person</option>
+              <option value="2 Person">2 Person</option>
+              <option value="3 Person">3 Person</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Arrival date*:</label></td>
+          <td><input type="date" name="arv_dt" value="" required /></td>
+          <td><label>Number of persons*:</label></td>
+          <td>
+            <input
+              type="text"
+              name="persons"
+              value=""
+              required
+              placeholder="Number of persons"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label>What would you want to avail?*</label></td>
+          <td><input type="checkbox" name="facilities[]" id="boarding" />
+            <label for="boarding">Boarding</label></td>
+          <td><input type="checkbox" name="facilities[]" id="Fooding" />
+            <label for="Fooding">Fooding</label></td>
+          <td>
+            <input type="checkbox" name="facilities[]" id="Sight-seeing" />
+            <label for="Sight-seeing">Sight seeing</label></td>
+        </tr>
+        <tr>
+          <td colspan="2"><label>Discount Coupon code:</label></td>
+          <td colspan="2"><input
+            type="text"
+            name="dis_code"
+            value=""
+            placeholder="Discount Coupon code"
+          /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><label>Terms and conditions*</label></td>
+          <td><input type="radio" name="tnc" id="agree" checked />
+            <label for="agree">I agree</label></td>
+          <td><input type="radio" name="tnc" id="disagree" />
+            <label for="disagree">I disagree</label></td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" class="btn btn-large btn-primary" name="submit">
+    </form>
+  </body>
+</html>

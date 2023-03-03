@@ -1,0 +1,139 @@
+.heading-background{
+    background-color: rgba(255, 0, 0, 0.437);
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.division-background{
+    background-color: rgba(0, 0, 255, 0.269);
+    height: 150px;
+    width:450px ;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.table-background{
+    background-color: rgba(137, 43, 226, 0.734);
+    height: 300px;
+    width:300px;
+}
+
+
+.parent1{
+    border: 5px solid red;
+    padding: 15px;
+    margin: 15px 0px 0px 0px;
+}
+.child1{
+    margin: 15px;
+    border: 5px dashed blue;
+    /* border-style: double; */
+    /* padding: 15px; */
+    padding: 15px 0px 0px 0px;
+}
+
+/* div{
+    margin: 15px 0px;
+    padding: 15px;
+} */
+
+.border-solid{
+    border: 5px solid tomato;
+}
+.border-dotted{
+    border: 5px dotted teal;
+}
+.border-dashed{
+    border: 5px dashed crimson;
+}
+.border-double{
+    border: 5px double seagreen;
+}
+.border-groove{
+    border: 5px groove purple;
+}
+.border-ridge{
+    border: 5px ridge gray;
+}
+.border-inset{
+    border: 5px inset dodgerblue;
+}
+.border-outset{
+    border: 5px outset goldenrod;
+    border-radius: 10px;
+}
+.border-radius{
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.border1{
+    border-top: 5px solid black;
+}
+.border2{
+    border-right: 5px solid black;
+}
+.border3{
+    border-bottom: 5px solid black;
+}
+.border4{
+    border-left: 5px solid black;
+}
+.border5{
+    border: 5px solid black;
+    border-top-left-radius: 10px;
+}
+
+div.scroll{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+div.hidden{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.box-shadow1{
+    box-shadow: 2px 2px 3px 2px red;
+}
+.box-shadow2{
+    box-shadow: 10px 10px 15px 6px red;
+}
+.box-shadow3{
+    box-shadow: 10px 10px 3px 5px red;
+}
+
+.box-size1{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.box-size2{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.parent2{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+.child2{
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

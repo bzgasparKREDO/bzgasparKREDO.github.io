@@ -1,0 +1,48 @@
+h2{
+    color: blueviolet;
+}
+
+/* *{
+    color: gray;
+} */
+p{
+    color: green;
+}
+
+.class-name {
+    background-color: brown;
+    color: darkgray;
+    border: solid 1px yellow;
+}
+.container{
+    border: solid 1px red;
+}
+.table-red{
+    border: solid 1px red;
+}
+#p1{
+    color: green;
+}
+#p2{
+    color: purple;
+}
+
+h3.header-1{
+    color:red;
+}
+h3 {
+    color: blue;
+}
+
+ul li {
+    color: rgba(0, 4, 232, 0.536);
+}
+.nav-links li{
+    color: rgb(255, 0, 0);
+}
+.nav-links .nav-item{
+    color: rgb(0, 128, 0);
+}
+.nav-links .nav-item a{
+    color: #d1d17a94;
+}

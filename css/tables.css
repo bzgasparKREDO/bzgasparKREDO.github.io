@@ -1,0 +1,84 @@
+.table1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.table1 th{
+    color: red;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.table1 td{
+    color: blue;
+}
+
+/* .table1 *{
+    font-size: 35px;
+} */
+
+.empty-cell1 {
+    width: 400px;
+    height: 400px;
+}
+.empty-cell1 *{
+    border: 1px solid black;
+}
+
+.empty-cell2 {
+    width: 400px;
+    height: 400px;
+    empty-cells: hide;
+}
+.empty-cell2 *{
+    border: 1px solid black;
+}
+
+
+.border-collapse1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.border-collapse1 *{
+    border: 1px solid black;
+}
+
+.border-collapse2{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.border-collapse2 *{
+    border: 1px solid black;
+}
+
+/* border spacing1 */
+.border-spacing1{
+    border: 1px solid black;
+    border-spacing: 15px;
+}
+.border-spacing1 *{
+    border: 1px solid black;
+}
+
+/* border spacing2 */
+.border-spacing2{
+    border: 1px solid black;
+    border-spacing: 15px 25px;
+    /* 1st value - horizontal */
+    /* 2nd value - vertical */
+}
+.border-spacing2 *{
+    border: 1px solid black;
+}
+
+/* border spacing3 */
+.border-spacing3{
+    border: 1px solid black;
+    border-spacing: 25px 15px;
+    /* 1st value - horizontal */
+    /* 2nd value - vertical */
+}
+.border-spacing3 *{
+    border: 1px solid black;
+}

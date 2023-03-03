@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <table border="0">
+        <tr>
+          <td colspan="2" align="center"><h2>Personal Details</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <label> Salutation </label>
+          </td>
+          <td>
+            <select name="salutation">
+              <option>--None--</option>
+              <option>Mr.</option>
+              <option>Ms.</option>
+              <option>Mrs.</option>
+              <option>Dr.</option>
+              <option>Prof.</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>First name:</label></td>
+          <td><input name="firstName" placeholder="First name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label>Last name: </label>
+          </td>
+          <td><input name="lastName" placeholder="Last name" /></td>
+        </tr>
+        <tr>
+          <td>
+            Gender :
+          </td>
+          <td>
+            <input type="radio" name="gender" id="male" />
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="male"> Male</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Email:</label></td>
+          <td><input type="email" name="email" placeholder="Email" /></td>
+        </tr>
+        <tr>
+          <td><label>Date of Birth:</label></td>
+          <td><input type="date" name="birthDate" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label> Address : </label>
+          </td>
+          <td>
+            <textarea
+              placeholder="Address"
+              name="address"
+              rows="3"
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

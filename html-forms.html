@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h2>Form Controls</h2>
+
+    <form action="#" method="#">
+
+        <!-- text input -->
+
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" required placeholder="ex. John">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+        <br>
+        <br>
+
+        <label for="company">Company</label>
+        <input type="text" name="company" id="company">
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address">
+        <br>
+        <br>    
+
+        <!-- password input -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <label for="confirm-pasword">Confirm Password</label>
+        <input type="password" name="confirm_password" id="confirm-password">
+        <br>
+        <br>
+
+        <!-- number input -->
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" required min="10" max="80">
+        <label for="no-sibling">Number of Siblings</label>
+        <input type="number" name="no_siblings" id="no-sibling">
+        <br>
+        <br>
+
+        <!-- date input -->
+        <label for="date-birth">Date of Birth</label>
+        <input type="date" name="date_birth" id="date-birth">
+        <label for="date-filed">Date Filed</label>
+        <input type="date" name="date_filed" id="date-filed">
+        <br>
+        <br>
+        <label for="week">Week</label>
+        <input type="week" name="week" id="week">
+        <label for="month">Month</label>
+        <input type="month" name="month" id="month">
+        <label for="time">time</label>
+        <input type="time" name="time" id="time">
+        <br>
+        <br>
+
+        <!-- email input -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="alt-email">Alternate Email</label>
+        <input type="email" name="alt_email" id="alt-email">
+        <br> 
+        <br> 
+
+        <!-- textarea -->
+        <label for="bio">Bio</label> <br>
+        <textarea name="bio" id="bio" cols="50" rows="10"></textarea><br>
+        <label for="description">Description</label><br>
+        <textarea name="description" id="description" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <!-- radio input -->
+        <p>Please Select your status</p>
+        <input type="radio" name="status" id="single" value="single">
+        <label for="single">Single</label>
+
+        <input type="radio" name="status" id="married" value="married">
+        <label for="married">Married</label>
+        
+        <input type="radio" name="status" id="widowed" value="widowed">
+        <label for="widowed">Widowed</label>
+        <br>
+        <br>
+        <!-- checkbox -->
+
+        <p>Please select your favorite food</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry" value="curry">
+        <label for="curry">Curry</label>
+
+        <br>
+        <br>
+
+        <!-- dropdown list -->
+        <p>What is your device?</p>
+        <select name="device" id="device">
+            <option value="macbook">Macbook</option>
+            <option value="ipad">Ipad</option>
+            <option value="iphone">Iphone</option>
+        </select>
+        <p>What is your prefecture?</p>
+        <select name="prefecture" id="prefecture">
+            <option value="ishikawa">Isikawa</option>
+            <option value="shizouka">Shizouka</option>
+            <option value="toyoma">Toyoma</option>
+            <option value="aichi">Aichi</option>
+        </select>
+        <br>
+        <br>
+        <!-- multiple select box -->
+        <p>what is your car</p>
+        <select name="car" id="car" multiple>
+            <option value="toyota">toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- file input -->
+        <input type="file" name="file" id="file">
+        <input type="file" name="avatar" id="avatar" accept="image/*">
+        <input type="file" name="cover" id="cover" accept="video/*">
+
+        <!-- submit button input -->
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+
+        <!-- button -->
+
+        <button type="button" name="button" id="button">I am a Button</button>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
